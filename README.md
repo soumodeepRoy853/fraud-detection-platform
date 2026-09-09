@@ -4,7 +4,7 @@ A production-style, end-to-end machine learning platform that scores financial t
 
 **Live Demo:**
 - 📊 Dashboard: [fraud-detection-platform.streamlit.app](https://fraud-detection-platform.streamlit.app/)
-- 🔌 API Docs: [YOUR-RENDER-URL.onrender.com/docs](https://fraud-detection-platform-jikj.onrender.com/docs)
+- 🔌 API Docs: [https://fraud-detection-platform-jikj.onrender.com/docs](https://fraud-detection-platform-jikj.onrender.com/docs)
 
 > ⚠️ **Note on cold starts:** Both services run on free-tier hosting and spin down after periods of inactivity. The first request may take 30–55 seconds while the service wakes up. Subsequent requests are fast.
 
