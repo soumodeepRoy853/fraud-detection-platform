@@ -9,7 +9,8 @@ load_dotenv()
 
 st.set_page_config(page_title='Fraud Detection Dashboard', layout='wide')
 
-engine = create_engine(os.getenv("DATABASE_URL"))
+DATABASE_URL = st.secrets.get("DATABASE_URL") or os.getenv("DATABASE_URL")
+engine = create_engine(DATABASE_URL)
 
 @st.cache_data(ttl=30)
 def load_data():
