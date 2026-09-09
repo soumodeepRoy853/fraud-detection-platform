@@ -9,3 +9,4 @@ shap==0.52.0
 sqlalchemy
 psycopg2-binary
 python-dotenv
+redis

@@ -1,6 +1,7 @@
 from pydantic import BaseModel, Field
 
 class Transaction(BaseModel):
+    account_id: str = Field(..., description="Unique account/card identifier")
     Time: float = Field(..., description="Seconds since the first transaction")
     Amount: float = Field(..., ge=0, description="Transaction amount")
     V1: float
